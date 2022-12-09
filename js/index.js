@@ -68,9 +68,5 @@ function keypressHandle(event) {
     }
 }
 
-function carryadder() {
-    var audio = new Audio("sounds/carryadder.mp3")
-    audio.play();
-    
-}
-carryadder();
+var audio = new Audio("sounds/carryadder.mp3")
+audio.play();
